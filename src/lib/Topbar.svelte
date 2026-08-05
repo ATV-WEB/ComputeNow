@@ -90,6 +90,7 @@
     background: var(--surface);
     color: var(--text);
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+    cursor: pointer;
   }
 
   .icon {

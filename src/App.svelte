@@ -25,7 +25,14 @@
     | null;
 
   const resolveRoute = (path: string) => {
-    const normalized = path.replace(/^\/+|\/+$/g, "") || "home";
+    // Strip the base URL prefix (e.g., "/ComputeNow") from the path
+    const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+    let relativePath = path;
+    if (relativePath.startsWith(base)) {
+      relativePath = relativePath.slice(base.length);
+    }
+
+    const normalized = relativePath.replace(/^\/+|\/+$/g, "") || "home";
     const parts = normalized.split("/");
 
     if (parts[0] === "cursos") {
@@ -68,13 +75,16 @@
   };
 
   const goToRoute = (path: string, shouldPush = true) => {
-    const nextPath = path.startsWith("/") ? path : `/${path}`;
+    const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+    const cleanPath = path.startsWith("/") ? path : `/${path}`;
+    const nextPath = `${base}${cleanPath === "/" ? "" : cleanPath}` || "/";
+
     if (shouldPush) {
       window.history.pushState({}, "", nextPath);
     } else {
       window.history.replaceState({}, "", nextPath);
     }
-    resolveRoute(nextPath);
+    resolveRoute(window.location.pathname);
   };
 
   const openChapter = (courseId: string, chapterId: string) => {
