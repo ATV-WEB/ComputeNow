@@ -10,11 +10,12 @@
 <main class="page">
   <section class="hero card">
     <div>
-      <p class="eyebrow">Plataforma gratuita</p>
-      <h1>Aprenda tecnologia com trilhas claras e progresso local.</h1>
+      <p class="eyebrow">Ponta pé inicial no mundo da programação</p>
+      <h1>Aprenda desenvolvimento de jogos</h1>
+      <p>Cursos nas áreas de programação, design e desenvolvimento de jogos.</p>
       <p>
-        Explore cursos, acompanhe seu desenvolvimento e marque capítulos como
-        concluídos sem necessidade de cadastro.
+        Desenvolva suas habilidades criativas e técnicas com nossos cursos e
+        trilhas de aprendizado.
       </p>
       <div class="hero-actions">
         <button on:click={() => onNavigate("courses")}>Ver cursos</button>
@@ -43,18 +44,23 @@
     <h2>Por que usar a ComputeNow?</h2>
     <div class="info-grid">
       <article class="info-card">
-        <h3>Conteúdo organizado</h3>
-        <p>Cursos em módulos e capítulos com navegação simples.</p>
-      </article>
-      <article class="info-card">
-        <h3>Progresso persistido</h3>
-        <p>Seu avanço fica salvo no navegador para continuar de onde parou.</p>
-      </article>
-      <article class="info-card">
-        <h3>Trilhas flexíveis</h3>
+        <h3>Cursos criativos</h3>
         <p>
-          Uma trilha pode reunir vários cursos e um curso pode aparecer em mais
-          de uma trilha.
+          Cursos nas áreas de design, modelagem 3D, roteiro e produção de jogos.
+        </p>
+      </article>
+      <article class="info-card">
+        <h3>Pensado no trabalho em grupo</h3>
+        <p>
+          Curso de gestão de pessoas para evitar conflitos em equipes de
+          desenvolvimento.
+        </p>
+      </article>
+      <article class="info-card">
+        <h3>Lógica do zero</h3>
+        <p>
+          Aprenda lógica de programação do zero, mesmo que nunca tenha
+          programado antes. Com exemplos interativos e metodologia evolutiva.
         </p>
       </article>
     </div>
