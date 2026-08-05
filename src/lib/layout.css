@@ -1,0 +1,87 @@
+@font-face {
+  font-family: blackops;
+  src: url(/fonts/BlackOpsOne-Regular.ttf);
+}
+
+:root {
+  color-scheme: light;
+  --bg: #f8fbff;
+  --surface: #ffffff;
+  --surface-soft: #f4edff;
+  --text: #1f2430;
+  --muted: #667085;
+  --border: #cbbcf6;
+  --accent: #22c5b3;
+  --accent-2: #f59e0b;
+  --accent-3: #8b5cf6;
+  --accent-soft: rgba(139, 92, 246, 0.12);
+  --accent-soft-2: rgba(34, 197, 179, 0.12);
+  --accent-soft-3: rgba(245, 158, 11, 0.16);
+  --hero-bg: #22c5b3;
+  --hero-text: #111111;
+  --icon-color: #8b5cf6;
+
+  --header-height: 5rem;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #111827;
+  --surface: #1b2233;
+  --surface-soft: #222d41;
+  --text: #f8fafc;
+  --muted: #9aa4b2;
+  --border: #6a4f0f;
+  --accent: #34d399;
+  --accent-2: #f59e0b;
+  --accent-3: #f59e0b;
+  --accent-soft: rgba(245, 158, 11, 0.18);
+  --accent-soft-2: rgba(52, 211, 153, 0.16);
+  --accent-soft-3: rgba(245, 158, 11, 0.16);
+  --hero-bg: #22c5b3;
+  --hero-text: #111111;
+  --icon-color: #f59e0b;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--accent-3);
+  margin: 0 0 0.35rem;
+}
+
+.icon-stroke {
+  stroke: var(--icon-color);
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (max-width: 800px) {
+  .chapter-layout {
+    grid-template-columns: 1fr;
+  }
+}
