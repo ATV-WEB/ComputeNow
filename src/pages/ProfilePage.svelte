@@ -14,7 +14,7 @@
         <p class="eyebrow">Perfil</p>
         <h2>Seu progresso</h2>
       </div>
-      <button class="secondary" on:click={onClearProgress}>Limpar dados</button>
+      <button class="clear-course" on:click={onClearProgress}>Limpar dados</button>
     </div>
     <div class="cards-grid">
       {#each courses as course}
@@ -57,6 +57,7 @@
     border: 1px solid var(--border);
     background: var(--surface-soft);
     color: var(--text);
+    cursor: pointer;
   }
 
   .section-head {
