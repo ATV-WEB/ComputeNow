@@ -374,7 +374,7 @@
 <p>Para isso, vamos introduzir o conceito de endereços de memória, diferente do que vimos até agora, onde cada conceito novo era um circuito eletrônico, esse novo conceito é mais abstrato, mas não é difícil de entender quando usamos a metáfora certa, para entender o conceito de endereços de memória, vamos imaginar uma rua de uma vizinhança qualquer.</p>
 
 <figure>
-  <img src="/images/chapter-content/algoritmos/image1.jpg" alt="Uma rua com casas de diferentes cores, cada casa tem um número e uma garagem, algumas garagens estão abertas e outras fechadas, algumas casas tem carros na garagem e outras não.">
+  <img src="/ComputeNow/images/chapter-content/algoritmos/image1.jpg" alt="Uma rua com casas de diferentes cores, cada casa tem um número e uma garagem, algumas garagens estão abertas e outras fechadas, algumas casas tem carros na garagem e outras não.">
   <figcaption>Fonte: <a href="https://pixabay.com/users/ponynyc-17558807/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5428045">Anthony Lopez</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5428045">Pixabay</a></figcaption>
 </figure>
 
