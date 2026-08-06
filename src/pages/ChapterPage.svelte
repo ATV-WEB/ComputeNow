@@ -26,6 +26,46 @@
   import algoritmosParametrosContent from "../lib/chapter-content/algoritmos/algoritmos-parametros.svelte";
   import algoritmosRetornoContent from "../lib/chapter-content/algoritmos/algoritmos-retorno.svelte";
   import algoritmosRecursividadeContent from "../lib/chapter-content/algoritmos/algoritmos-recursividade.svelte";
+  import roteiroCriandoUmGuiaMestreContent from "../lib/chapter-content/roteiro/roteiro-criando-um-guia-mestre.svelte";
+  import roteiroMenosEMaisContent from "../lib/chapter-content/roteiro/roteiro-menos-e-mais.svelte";
+  import roteiroEntrandoNaHistoriaContent from "../lib/chapter-content/roteiro/roteiro-entrando-na-historia.svelte";
+  import roteiroSimplicidadeContent from "../lib/chapter-content/roteiro/roteiro-simplicidade.svelte";
+  import roteiroInicioContent from "../lib/chapter-content/roteiro/roteiro-inicio.svelte";
+  import roteiroMundosVivosContent from "../lib/chapter-content/roteiro/roteiro-mundos-vivos.svelte";
+  import roteiroUmMundoMaiorQueOJogadorContent from "../lib/chapter-content/roteiro/roteiro-um-mundo-maior-que-o-jogador.svelte";
+  import roteiroEstranhosContent from "../lib/chapter-content/roteiro/roteiro-estranhos.svelte";
+  import roteiroDesconhecidoContent from "../lib/chapter-content/roteiro/roteiro-desconhecido.svelte";
+  import roteiroFragmentadoContent from "../lib/chapter-content/roteiro/roteiro-fragmentado.svelte";
+  import roteiroDuplaNarrativaContent from "../lib/chapter-content/roteiro/roteiro-dupla-narrativa.svelte";
+  import roteiroMentirasContent from "../lib/chapter-content/roteiro/roteiro-mentiras.svelte";
+  import roteiroAsAparenciasEnganamContent from "../lib/chapter-content/roteiro/roteiro-as-aparencias-enganam.svelte";
+  import roteiroHeroisProfundosContent from "../lib/chapter-content/roteiro/roteiro-herois-profundos.svelte";
+  import roteiroViloesMotivadosContent from "../lib/chapter-content/roteiro/roteiro-viloes-motivados.svelte";
+  import roteiroPecasComplementaresContent from "../lib/chapter-content/roteiro/roteiro-pecas-complementares.svelte";
+  import roteiroDramaContent from "../lib/chapter-content/roteiro/roteiro-drama.svelte";
+  import roteiroPerdaContent from "../lib/chapter-content/roteiro/roteiro-perda.svelte";
+  import blenderIntroducaoContent from "../lib/chapter-content/blender/blender-introducao.svelte";
+  import blenderExplorandoInterfaceContent from "../lib/chapter-content/blender/blender-explorando-interface.svelte";
+  import blenderVerticesArestasFacesContent from "../lib/chapter-content/blender/blender-vertices-arestas-faces.svelte";
+  import blenderFerramentasBasicasModelagemContent from "../lib/chapter-content/blender/blender-ferramentas-basicas-modelagem.svelte";
+  import blenderTopologiaContent from "../lib/chapter-content/blender/blender-topologia.svelte";
+  import blenderModificadoresContent from "../lib/chapter-content/blender/blender-modificadores.svelte";
+  import blenderEsculturaDigitalContent from "../lib/chapter-content/blender/blender-escultura-digital.svelte";
+  import blenderMateriaisContent from "../lib/chapter-content/blender/blender-materiais.svelte";
+  import blenderShaderNodesContent from "../lib/chapter-content/blender/blender-shader-nodes.svelte";
+  import blenderIluminacaoERenderContent from "../lib/chapter-content/blender/blender-iluminacao-e-render.svelte";
+  import blenderProjetoFinalContent from "../lib/chapter-content/blender/blender-projeto-final.svelte";
+  import blenderGlossarioERecursosContent from "../lib/chapter-content/blender/blender-glossario-e-recursos.svelte";
+  import gestaoPessoasIdentificandoPerfisDeLiderancaContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-identificando-perfis-de-lideranca.svelte";
+  import gestaoPessoasLiderancaTecnicaVsLiderancaFacilitadoraContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-lideranca-tecnica-vs-lideranca-facilitadora.svelte";
+  import gestaoPessoasResolucaoDeImpassesContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-resolucao-de-impasses.svelte";
+  import gestaoPessoasBlindagemEFocoContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-blindagem-e-foco.svelte";
+  import gestaoPessoasAlinhamentoDaVisaoDoProjetoContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-alinhamento-da-visao-do-projeto.svelte";
+  import gestaoPessoasOMvpSobPressaoContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-o-mvp-sob-pressao.svelte";
+  import gestaoPessoasDomandoOFeatureCreepContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-domando-o-feature-creep.svelte";
+  import gestaoPessoasMapeamentoRapidoDeHabilidadesContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-mapeamento-rapido-de-habilidades.svelte";
+  import gestaoPessoasGestaoAgilDeCurtissimoPrazoContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-gestao-agil-de-curtissimo-prazo.svelte";
+  import gestaoPessoasAcompanhamentoSemMicrogerenciamentoContent from "../lib/chapter-content/gestao-pessoas/gestao-pessoas-acompanhamento-sem-microgerenciamento.svelte";
 
   // logic
 
@@ -66,6 +106,46 @@
     'algoritmos-parametros': algoritmosParametrosContent,
     'algoritmos-retorno': algoritmosRetornoContent,
     'algoritmos-recursividade': algoritmosRecursividadeContent,
+    'roteiro-criando-um-guia-mestre': roteiroCriandoUmGuiaMestreContent,
+    'roteiro-menos-e-mais': roteiroMenosEMaisContent,
+    'roteiro-entrando-na-historia': roteiroEntrandoNaHistoriaContent,
+    'roteiro-simplicidade': roteiroSimplicidadeContent,
+    'roteiro-inicio': roteiroInicioContent,
+    'roteiro-mundos-vivos': roteiroMundosVivosContent,
+    'roteiro-um-mundo-maior-que-o-jogador': roteiroUmMundoMaiorQueOJogadorContent,
+    'roteiro-estranhos': roteiroEstranhosContent,
+    'roteiro-desconhecido': roteiroDesconhecidoContent,
+    'roteiro-fragmentado': roteiroFragmentadoContent,
+    'roteiro-dupla-narrativa': roteiroDuplaNarrativaContent,
+    'roteiro-mentiras': roteiroMentirasContent,
+    'roteiro-as-aparencias-enganam': roteiroAsAparenciasEnganamContent,
+    'roteiro-herois-profundos': roteiroHeroisProfundosContent,
+    'roteiro-viloes-motivados': roteiroViloesMotivadosContent,
+    'roteiro-pecas-complementares': roteiroPecasComplementaresContent,
+    'roteiro-drama': roteiroDramaContent,
+    'roteiro-perda': roteiroPerdaContent,
+    'blender-introducao': blenderIntroducaoContent,
+    'blender-explorando-interface': blenderExplorandoInterfaceContent,
+    'blender-vertices-arestas-faces': blenderVerticesArestasFacesContent,
+    'blender-ferramentas-basicas-modelagem': blenderFerramentasBasicasModelagemContent,
+    'blender-topologia': blenderTopologiaContent,
+    'blender-modificadores': blenderModificadoresContent,
+    'blender-escultura-digital': blenderEsculturaDigitalContent,
+    'blender-materiais': blenderMateriaisContent,
+    'blender-shader-nodes': blenderShaderNodesContent,
+    'blender-iluminacao-e-render': blenderIluminacaoERenderContent,
+    'blender-projeto-final': blenderProjetoFinalContent,
+    'blender-glossario-e-recursos': blenderGlossarioERecursosContent,
+    'gestao-pessoas-identificando-perfis-de-lideranca': gestaoPessoasIdentificandoPerfisDeLiderancaContent,
+    'gestao-pessoas-lideranca-tecnica-vs-lideranca-facilitadora': gestaoPessoasLiderancaTecnicaVsLiderancaFacilitadoraContent,
+    'gestao-pessoas-resolucao-de-impasses': gestaoPessoasResolucaoDeImpassesContent,
+    'gestao-pessoas-blindagem-e-foco': gestaoPessoasBlindagemEFocoContent,
+    'gestao-pessoas-alinhamento-da-visao-do-projeto': gestaoPessoasAlinhamentoDaVisaoDoProjetoContent,
+    'gestao-pessoas-o-mvp-sob-pressao': gestaoPessoasOMvpSobPressaoContent,
+    'gestao-pessoas-domando-o-feature-creep': gestaoPessoasDomandoOFeatureCreepContent,
+    'gestao-pessoas-mapeamento-rapido-de-habilidades': gestaoPessoasMapeamentoRapidoDeHabilidadesContent,
+    'gestao-pessoas-gestao-agil-de-curtissimo-prazo': gestaoPessoasGestaoAgilDeCurtissimoPrazoContent,
+    'gestao-pessoas-acompanhamento-sem-microgerenciamento': gestaoPessoasAcompanhamentoSemMicrogerenciamentoContent,
   } as const;
 
   const toggleSidebar = () => {
@@ -303,6 +383,20 @@
     line-height: 1.25;
   }
 
+  .chapter-content :global(h3) {
+    margin: 1.75rem 0 0.75rem;
+    color: var(--text);
+    font-size: clamp(1.15rem, 1.6vw, 1.4rem);
+    line-height: 1.3;
+  }
+
+  .chapter-content :global(h4) {
+    margin: 1.25rem 0 0.5rem;
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
   .chapter-content :global(ol),
   .chapter-content :global(ul) {
     margin: 0 0 1.25rem;
@@ -313,6 +407,84 @@
 
   .chapter-content :global(li + li) {
     margin-top: 0.35rem;
+  }
+
+  .chapter-content :global(img) {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 34rem;
+    margin: 1.75rem auto;
+    border-radius: 0.875rem;
+    object-fit: contain;
+  }
+
+  .chapter-content :global(figure) {
+    margin: 1.75rem 0;
+    padding: 0;
+  }
+
+  .chapter-content :global(figure img) {
+    margin: 0 auto;
+  }
+
+  .chapter-content :global(figcaption) {
+    max-width: 68ch;
+    margin: 0.65rem auto 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .chapter-content :global(blockquote) {
+    margin: 0 0 1.25rem;
+    padding: 0.85rem 1rem;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 0.75rem 0.75rem 0;
+    background: var(--surface-soft);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .chapter-content :global(dl) {
+    margin: 0 0 1.25rem;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .chapter-content :global(dt) {
+    margin-top: 0.75rem;
+    font-weight: 700;
+  }
+
+  .chapter-content :global(dd) {
+    margin-left: 1rem;
+    color: var(--muted);
+  }
+
+  .chapter-content :global(.table-scroll) {
+    margin: 1.5rem 0;
+    overflow-x: auto;
+  }
+
+  .chapter-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--text);
+  }
+
+  .chapter-content :global(th),
+  .chapter-content :global(td) {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .chapter-content :global(th) {
+    background: var(--surface-soft);
+    font-weight: 700;
   }
 
   .chapter-content :global(a) {

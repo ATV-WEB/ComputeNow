@@ -42,6 +42,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: start;
   }
 
   .track-card {
@@ -49,7 +50,7 @@
     flex-direction: column;
     gap: 1rem;
     min-height: 260px;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .track-courses {
